@@ -28,7 +28,7 @@
 	margin-left: 20px;
 	height: 80vh;
 
-   	background-color:green;
+   	background-color:black;
 
 }
 
@@ -202,7 +202,116 @@
 	padding-top: 4px;
 	white-space: nowrap;
 	box-sizing: border-box;
+	font-family: sans-serif;
 
+}
+
+.game_specs {
+	float: right;
+	height: 160px;
+	width: 250px;
+	margin right: 25px;
+	background-color: none;
+	align-content: normal;
+	align-self: auto;
+	align-items: normal;
+	flex-basis: auto;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	overflow-wrap: break-word;
+	margin-top: 12%;
+	margin-right: -14%;
+
+
+}
+
+.row_specs {
+	right: 30px
+	height: 38px;
+	width: 500px;
+	align-content: normal;
+	align-self: auto;
+	align-items: normal;
+	flex-basis: auto;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	overflow-wrap: break-word;
+	border-bottom-color: black;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	background-color: none;
+}
+
+.column_specs_section1 {
+	height: 32px;
+	width: 118px;
+	color: white;
+	display: table-cell;
+	background-color: none;
+	align-content: normal;
+	align-self: auto;
+	align-items: normal;
+	flex-basis: auto;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	overflow-wrap: break-word;
+	font-weight: 700;
+	padding-bottom: 4px;
+	padding-left: 5px;
+	padding-right: 24px;
+	padding-top: 4px;
+	white-space: nowrap;
+	box-sizing: border-box;
+}
+
+.column_specs_section2 {
+	height: 32px;
+	width: 118px;
+	color: white;
+	display: table-cell;
+	background-color:none;
+	align-content: normal;
+	align-self: auto;
+	align-items: normal;
+	flex-basis: auto;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	overflow-wrap: break-word;
+	font-weight: 700;
+	padding-bottom: 4px;
+	padding-left: 0px;
+	padding-right:0px;
+	padding-top: 4px;
+	white-space: nowrap;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+.button {
+
+	background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    float: right;
+    margin-top: 25%;
+	margin-right: -14%;
+	font-family: sans-serif;
+	font-weight: 700;
+	float: right;
+	letter-spacing: 1px;
+
+}
+
+.button:hover {
+    background-color: #f44336;
+    color: white;
 }
 
 
